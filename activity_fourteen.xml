@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fourteen"
+    android:background="@drawable/indexlast">
+
+    <EditText
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="47dp"
+        android:text="Your score is "
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="126dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginLeft="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:text="Facebook"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_centerHorizontal="true"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="295dp"
+        android:text="twitter"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_below="@+id/button32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Netcamp.in"
+        />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="107dp"
+        android:layout_below="@+id/button33"
+        android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Home"
+       />
+</RelativeLayout>
