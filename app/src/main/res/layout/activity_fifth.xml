@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fifth">
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="Back"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button13"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="71dp"
+        android:text="Music Player"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="123dp"
+        android:layout_marginLeft="123dp"
+        android:layout_marginTop="50dp"
+        tools:srcCompat="@drawable/m" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="59dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@android:drawable/ic_media_play"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="65dp"
+        android:layout_height="77dp"
+         android:layout_marginTop="60dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginLeft="244dp"
+        android:layout_below="@+id/imageView3"
+        app:srcCompat="@android:drawable/ic_media_pause"
+        tools:layout_editor_absoluteY="413dp" />
+</RelativeLayout>
